@@ -1,34 +1,41 @@
-# DATA 732 - TP 1
+# Projet visualisation GUERIOT Benjamin, NICOLAS Thomas, GONAY Arthur
+Projet DATA732
 
-Pour lancer le serveur
+### Sommaire 
+
+- [Description](#description)
+- [Utilisation](#utilisation)
+- [Explications](#explications)
+
+---
+## Description
+
+Ce programme a été réalisé dans le cadre de notre formation à Polytech Annecy-Chambéry 
+
+Ce programme est construit a partir de données d'un sondage.
+
+L'objectif est de réaliser plusieurs graphiques afin de pouvoir visualiser de manière fluide les différentes données
+
+---
+## Utilisation
+
+
+Ouvrir un *cmd* à la racine et executer la commande :  
 
 ```shell
-npm install
 npm start
 ```
 
-# Dataset
+Il ne reste plus qu'à accèder au site par ce lien :
+<code>http://localhost:3000/index3_3.html</code>
 
-Le dataset utilisé est le suivant :
+#### Installation
 
-https://www.kaggle.com/datasets/catherinerasgaitis/mxmh-survey-results
+Cloner le projet dans un repertoire : 
 
-# But du TP
+`git  clone https://github.com/BenjaminGueriot/Data732_Projet_JS.git'
 
-Le but du TP est de créer un dashboard interactif avec les données du dataset `/public/data/survey.csv`, il n'y aucune consigne si ce n'est de créer un Dashboard avec la Librairie DC.js en modifiant le fichier `/public/viz.js`.
-Vous pouvez utiliser n'importe quelle visualisation tant qu'elle est pertinent pour vous et que vous pouvez lui donner du sens.
+---
+## Explications
 
-Une fois les visualisations faites vous devrez faire une petite description pour expliquer pourquoi vous avez choisi tel ou tel graphique et le sens que vous avez voulu lui donner.
 
-Vous avez deux fichiers html que vous pouvez utiliser (suivant le nombre de visualisations) :
-
-- `/public/index3*2.html` - http://localhost:3000/index3_2.html - Visualisation de 3 x 2 graphiques
-- `/public/index3*3.html` - http://localhost:3000/index3_3.html - Visualisation de 3 x 3 graphiques
-
-Vous allez leur donner des titres et donner des noms aux axes, vous pouvez utiliser les exemples de DC.js :
-
-- TD1-1 de DATA732
-- https://dc-js.github.io/dc.js/examples/
-- https://www.tutorialspoint.com/dcjs/
-
-Le code et le rapport sont à envoyer par mail ([antonin.martin.rosa@gmail.com](mailto:antonin.martin.rosa@gmail.com)) ou sur un Github avant le mercredi 4 janvier 2023 à minuit.
