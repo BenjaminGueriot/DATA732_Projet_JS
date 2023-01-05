@@ -87,7 +87,7 @@ async function createDataViz() {
         .dimension(AgeDimension) // On ajoute la dimension
         .group(HourGroup) // On ajoute le groupe
         .valueAccessor(function(p) { return p.value.count > 0 ? p.value.total / p.value.count : 0; })
-        .yAxisLabel("Nombre d'heure d'écoute") // On met le label de l'axe y
+        .yAxisLabel("Nombre d'heures d'écoute") // On met le label de l'axe y
         .xAxisLabel("Age") // On met le label de l'axe x
         .elasticY(true)// On veut que l'axe des Y puisse redimensionner tout seul
         .elasticX(true)// On veut que l'axe des X puisse redimensionner tout seul
@@ -202,7 +202,7 @@ const favMusicHoursChart = dc.barChart('#chart4',groupName);
 favMusicHoursChart
     .dimension(hourDimension) // On ajoute la dimension
     .group(favMusicHoursGroup, 'Rock',get_value('Rock')) // On ajoute le groupe
-    .xAxisLabel("Heures par jours") // On met le label de l'axe x
+    .xAxisLabel("Heures par jour") // On met le label de l'axe x
     .elasticY(true)// On veut que l'axe des Y puisse redimensionner tout seul
     .elasticX(true)// On veut que l'axe des X puisse redimensionner tout seul
     .x(d3.scaleLinear().domain([0, 16]))
@@ -249,7 +249,7 @@ const favPlateformeHoursChart = new MyBarChart('#chart5',groupName);
 favPlateformeHoursChart
     .dimension(hourDimension) // On ajoute la dimension
     .group(favPlateformeHoursGroup, 'Spotify',get_value('Spotify')) // On ajoute le groupe
-    .xAxisLabel("Heures par jours") // On met le label de l'axe x
+    .xAxisLabel("Heures par jour") // On met le label de l'axe x
     .elasticY(true)// On veut que l'axe des Y puisse redimensionner tout seul
     .elasticX(true)// On veut que l'axe des X puisse redimensionner tout seul
     .x(d3.scaleLinear().domain([0, 24]))
