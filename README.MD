@@ -60,15 +60,27 @@ Ce manque de donné empêche toute analyse pertinente.
 
 ### Graphique 4
 
-Ce StackedBarChart 
+Ce StackedBarChart représente le genre favoris des sondés en fonction du nombre d'heures d'écoute par jour.
+
+Il est compliqué d'observer des corrélation entre ces deux paramètres.
 
 ### Graphique 5
 
+Ce StackedBarChart représente les platefromes d'écoute favorites des sondés en fonction du nombre d'heures d'écoute par jour.
+
 ### Graphique 6
 
-### Graphique 7
+Ce lineChart représente les états mentaux des sondées selon les bpm des musiques qu'ils écoutent.
 
-### Graphique 8
+Selon ces données, aucune corrélation ne peut-être établie.
 
-### Graphique 9
+### Graphique 7, 8, 9
 
+Ces 3 derniers pieChart représentent les parts de chaques genre musical parmis les genres favoris des personnes sondées selon leurs pratiques instrumentales. Le graphique de gauche (n°7) pour les non musiciens, celui du milieux (n°8) pour l'ensemble du groupe, et celui de droite (n°9) pour les musiciens.
+
+On peut observer certaines différences interessante entre ces groupes. Par exemple la musique classique est le 2nd genre le plus écouté pour les musicien mais le 11e parmis les non musiciens.
+
+---
+## Conclusion
+
+Ce projet a été pour nous une initiation à DC.js qui, malgrés certaines qualités comme l'intéractivitée entre les différents graphiques du dashboard, il peut vite être trés pénible de réaliser certains graphiques complexes.
