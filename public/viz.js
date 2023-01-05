@@ -43,7 +43,7 @@ async function createDataViz() {
 
         d["Age"] = +d["Age"];
         d["Hours per day"] = +d["Hours per day"];
-        d["BPM"] = +(d["BPM"] < 300 ? d["BPM"] : null)
+        d["BPM"] = +(d["BPM"] < 300 || d["BPM"] > 50 ? d["BPM"] : null)
         d["Anxiety"] = +d["Anxiety"];
         d["Depression"] = +d["Depression"];
         d["Insomnia"] = +d["Insomnia"];
@@ -396,11 +396,10 @@ async function createChart6(option) {
         d["Composer"] = d["Composer"] === "Yes";
         d["Exploratory"] = d["Exploratory"] === "Yes";
         d["Foreign languages"] = d["Foreign languages"] === "Yes";
-        d["While working"] = d["While working"] === "Yes";
 
         d["Age"] = +d["Age"];
         d["Hours per day"] = +d["Hours per day"];
-        d["BPM"] = +(d["BPM"] < 300 ? d["BPM"] : null)
+        d["BPM"] = +(d["BPM"] < 300 && d["BPM"] > 50 ? d["BPM"] : 50)
         d["Anxiety"] = +d["Anxiety"];
         d["Depression"] = +d["Depression"];
         d["Insomnia"] = +d["Insomnia"];
@@ -532,7 +531,7 @@ async function createChart6(option) {
             .elasticX(true)// On veut que l'axe des X puisse redimensionner tout seul
             .yAxisLabel(option + " Level")
             .xAxisLabel("BPM")
-            .x(d3.scaleLinear().domain([0, 300]))
+            .x(d3.scaleLinear().domain([50, 300]))
             .y(d3.scaleLinear().domain([0, 10]))
             .brushOn(false)
             .renderDataPoints(true);
