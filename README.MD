@@ -44,15 +44,15 @@ Cloner le projet dans un repertoire :
 
 ### Graphique 3
 
-##Graphique 4
+###Graphique 4
 
-#Graphique 5
+###Graphique 5
 
-#Graphique 6
+###Graphique 6
 
-#Graphique 7
+###Graphique 7
 
-#Graphique 8
+###Graphique 8
 
-#Graphique 9
+###Graphique 9
 
