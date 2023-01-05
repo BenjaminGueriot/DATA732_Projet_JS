@@ -12,7 +12,7 @@ Projet DATA732
 
 Ce programme a été réalisé dans le cadre de notre formation à Polytech Annecy-Chambéry 
 
-Ce programme est construit a partir de données d'un sondage.
+Ce programme est construit a partir de données d'un sondage: https://www.kaggle.com/datasets/catherinerasgaitis/mxmh-survey-results
 
 L'objectif est de réaliser plusieurs graphiques afin de pouvoir visualiser de manière fluide les différentes données
 
@@ -38,21 +38,37 @@ Cloner le projet dans un repertoire :
 ---
 ## Explications
 
+En prélilminaire il est important de savoir que l'échantillon du sondage est assez faible (719 personnes intérogées), surtout pour les personnes âgés, et que les informations ont été directement saisies par l'utilisateur, ainsi certaines valeurs peuvent sembler incoherentes. 
+
 ### Graphique 1
+
+Ce barChart représente la moyenne des heures d'écoutes en fonction de l'âge. 
+
+Il nous a semblé pertinent d'étudier si une corrélation importante pouvait être observée. 
 
 ### Graphique 2
 
+Ce stackedBarChart modélise les moyens d'écoute des personnes sondées selon leur âge.
+
+On observe une domination du marché par la plateforme Spotify.
+
 ### Graphique 3
 
-###Graphique 4
+Ce barChart représente le pourcentage de musicien pour chaques âges. Comme dit en préliminaire certaines valeurs sont ici biaisé par le faible nombre de donées pour certains âges.
 
-###Graphique 5
+Ce manque de donné empêche toute analyse pertinente.
 
-###Graphique 6
+### Graphique 4
 
-###Graphique 7
+Ce StackedBarChart 
 
-###Graphique 8
+### Graphique 5
 
-###Graphique 9
+### Graphique 6
+
+### Graphique 7
+
+### Graphique 8
+
+### Graphique 9
 
